@@ -1,0 +1,4 @@
+Panitia,Divisi,Algoritma,Rata_rata_skor,Rata_rata_waktu_detik,Pengulangan
+30,5,Hungarian,2569.0,5.534000019906671e-05,5
+30,5,Genetic Algorithm,2515.0,0.169128019999971,5
+30,5,Hill-Climbing Random Restart,2528.2,0.06103251999993518,5
