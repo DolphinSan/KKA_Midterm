@@ -10,12 +10,13 @@ Proyek ini membandingkan Hungarian Algorithm, Genetic Algorithm, dan Hill-Climbi
 - Tujuan adalah memaksimalkan total skor kecocokan.
 
 ## Menjalankan di Windows PowerShell
+#### Kalau mau ganti Skenario nya tinggal ganti "--member xx" (ex : --member 50)
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python src/generate_data.py --members 30 --divisions 5 --seed 20261048 --output data/synthetic_scores.csv
-python src/run_experiments.py --input data/synthetic_scores.csv --repeats 5 --output results/benchmark_results.csv
+python src/generate_data.py --members 30 --divisions 5 --seed 20261048 --output data/synthetic_scores30.csv
+python src/run_experiments30.py --input data/synthetic_scores.csv --repeats 5 --output results/benchmark_results30.csv
 ```
 
 ## Catatan eksperimen
